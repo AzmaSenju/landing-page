@@ -7,7 +7,7 @@ body {
   margin: 0%;
 }
 
-#backgroundContainer {
+#background {
   position: fixed;
   object-fit: cover;
   width: 100%;
