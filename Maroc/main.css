@@ -6,7 +6,7 @@ html {
 body {
   margin: 0%;
 }
-#backgroundContainer {
+.backgroundContainer {
   position: fixed;
   object-fit: cover;
   width: 100%;
@@ -21,6 +21,7 @@ body {
 .topBar {
   display: flex;
   width: 100%;
+  height: 50px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -28,5 +29,65 @@ body {
   text-decoration: none;
   position: fixed;
   top: 0%;
-  z-index: -2;
+  z-index: 9;
+}
+.leftSideContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flagContainer {
+  display: flex;
+  align-items: center;
+}
+.flagImg {
+  width: 60px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.marocBarButton {
+  display: flex;
+  align-items: center;
+}
+.marocBarButton {
+  align-items: center;
+  display: flex;
+}
+.rightSideContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.b1BannerContainer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(234, 102, 159);
+  text-align: center;
+}
+.rabatb1Container {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+.tangierb1Container {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+.casab1Container {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+.khemissetb1Container {
+  display: flex;
+  width: 100px;
+  height: 100px;
 }
