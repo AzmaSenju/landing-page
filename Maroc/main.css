@@ -71,6 +71,7 @@ body {
   height: 600px;
   background-color: rgb(234, 102, 159);
   text-align: center;
+  bottom: -400px;
 }
 .headingb1BannerContainer {
   display: flex;
