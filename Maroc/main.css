@@ -67,7 +67,8 @@ body {
   justify-content: space-evenly;
   position: relative;
   object-fit: cover;
-  width: 100%;
+  width: 90%;
+  left: 5%;
   height: 400px;
   background-color: rgb(234, 102, 159);
   text-align: center;
