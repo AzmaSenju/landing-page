@@ -60,6 +60,38 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.cityDropMenu {
+  background-color: aqua;
+  color: black;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.cityDropMenu:hover {
+  opacity: 0.8;
+}
+
+.beachDropMenu {
+  background-color: aqua;
+  color: black;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.beachDropMenu:hover {
+  opacity: 0.8;
+}
+
+.mosqueDropMenu {
+  background-color: aqua;
+  color: black;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.mosqueDropMenu:hover {
+  opacity: 0.8;
+}
 
 .b1BannerContainer {
   display: flex;
