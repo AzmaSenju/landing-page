@@ -61,6 +61,7 @@ body {
   justify-content: space-between;
 }
 .cityDropMenu {
+  font-style: consolas-regular;
   background-color: rgb(14, 7, 239);
   border: 2px;
   border-color: aqua;
@@ -68,9 +69,7 @@ body {
   color: black;
   border-radius: 10px;
   cursor: pointer;
-  transition: opacity 0.15s, 
-    color: 1s, 
-    background-color: 1s;
+  transition: opacity 0.15s, color 1s, background-color 1s;
 }
 .cityDropMenu:hover {
   opacity: 0.8;
@@ -79,16 +78,15 @@ body {
 }
 
 .beachDropMenu {
+  font-style: consolas-regular;
   background-color: rgb(14, 7, 239);
   border: 2px;
-  border-color: aqua;
+  border-color: white;
   border-style: solid;
   color: black;
   border-radius: 10px;
   cursor: pointer;
-  transition: opacity 0.15s, 
-  color: 1s, 
-  background-color: 1s;
+  transition: opacity 0.15s, color 1s, background-color 1s;
 }
 .beachDropMenu:hover {
   opacity: 0.8;
@@ -96,19 +94,18 @@ body {
   background-color: white;
 }
 
-.mosqueDropMenu {
+.mosquesDropMenu {
+  font-style: consolas-regular;
   background-color: rgb(14, 7, 239);
   border: 2px;
-  border-color: aqua;
+  border-color: black;
   border-style: solid;
   color: black;
   border-radius: 10px;
   cursor: pointer;
-  transition: opacity 0.15s, 
-  color: 1s, 
-  background-color: 1s;
+  transition: opacity 0.15s, color 1s, background-color 1s;
 }
-.mosqueDropMenu:hover {
+.mosquesDropMenu:hover {
   opacity: 0.8;
   color: rgb(14, 7, 239);
   background-color: white;
