@@ -64,7 +64,7 @@ body {
   font-style: consolas-regular;
   background-color: rgb(14, 7, 239);
   border: 2px;
-  border-color: aqua;
+  border-color: black;
   border-style: solid;
   color: black;
   border-radius: 10px;
@@ -81,7 +81,7 @@ body {
   font-style: consolas-regular;
   background-color: rgb(14, 7, 239);
   border: 2px;
-  border-color: white;
+  border-color: black;
   border-style: solid;
   color: black;
   border-radius: 10px;
