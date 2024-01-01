@@ -61,36 +61,57 @@ body {
   justify-content: space-between;
 }
 .cityDropMenu {
-  background-color: aqua;
+  background-color: rgb(14, 7, 239);
+  border: 2px;
+  border-color: aqua;
+  border-style: solid;
   color: black;
-  border-radius: 2px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: opacity 0.15s;
+  transition: opacity 0.15s, 
+    color: 1s, 
+    background-color: 1s;
 }
 .cityDropMenu:hover {
   opacity: 0.8;
+  color: rgb(14, 7, 239);
+  background-color: white;
 }
 
 .beachDropMenu {
-  background-color: aqua;
+  background-color: rgb(14, 7, 239);
+  border: 2px;
+  border-color: aqua;
+  border-style: solid;
   color: black;
-  border-radius: 2px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: opacity 0.15s;
+  transition: opacity 0.15s, 
+  color: 1s, 
+  background-color: 1s;
 }
 .beachDropMenu:hover {
   opacity: 0.8;
+  color: rgb(14, 7, 239);
+  background-color: white;
 }
 
 .mosqueDropMenu {
-  background-color: aqua;
+  background-color: rgb(14, 7, 239);
+  border: 2px;
+  border-color: aqua;
+  border-style: solid;
   color: black;
-  border-radius: 2px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: opacity 0.15s;
+  transition: opacity 0.15s, 
+  color: 1s, 
+  background-color: 1s;
 }
 .mosqueDropMenu:hover {
   opacity: 0.8;
+  color: rgb(14, 7, 239);
+  background-color: white;
 }
 
 .b1BannerContainer {
